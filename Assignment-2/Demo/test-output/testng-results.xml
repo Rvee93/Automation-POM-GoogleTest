@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139215" started-at="2019-12-21T05:54:41Z" finished-at="2019-12-21T05:57:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="139215" started-at="2019-12-21T05:54:41Z" finished-at="2019-12-21T05:57:01Z">
+      <class name="com.crm.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.LoginPageTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="9319" started-at="2019-12-21T11:25:17Z" finished-at="2019-12-21T11:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.crm.test.LoginPageTest@6d4b1c02]" name="loginTest" duration-ms="11010" started-at="2019-12-21T11:25:26Z" description="Testing Login functionality with valid details Login" finished-at="2019-12-21T11:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.LoginPageTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-12-21T11:25:37Z" finished-at="2019-12-21T11:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.LoginPageTest -->
+      <class name="com.crm.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="22519" started-at="2019-12-21T11:24:41Z" finished-at="2019-12-21T11:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MatchLogo()[pri:1, instance:com.crm.test.HomePageTest@7cd62f43]" name="MatchLogo" duration-ms="11848" started-at="2019-12-21T11:25:04Z" description="Match Logo of Google" finished-at="2019-12-21T11:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MatchLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-12-21T11:25:16Z" finished-at="2019-12-21T11:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="18143" started-at="2019-12-21T11:25:38Z" finished-at="2019-12-21T11:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchFunctionality()[pri:2, instance:com.crm.test.HomePageTest@7cd62f43]" name="SearchFunctionality" duration-ms="11042" started-at="2019-12-21T11:25:56Z" description="Searching mail here by name" finished-at="2019-12-21T11:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="705" started-at="2019-12-21T11:26:07Z" finished-at="2019-12-21T11:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="19564" started-at="2019-12-21T11:26:08Z" finished-at="2019-12-21T11:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MatchTextTest()[pri:3, instance:com.crm.test.HomePageTest@7cd62f43]" name="MatchTextTest" duration-ms="5720" started-at="2019-12-21T11:26:27Z" description="Match Static text Program Policies" finished-at="2019-12-21T11:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MatchTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="750" started-at="2019-12-21T11:26:33Z" finished-at="2019-12-21T11:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="setUp" is-config="true" duration-ms="20415" started-at="2019-12-21T11:26:34Z" finished-at="2019-12-21T11:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GotoLink()[pri:4, instance:com.crm.test.HomePageTest@7cd62f43]" name="GotoLink" duration-ms="5823" started-at="2019-12-21T11:26:54Z" description="Goto Starred Link" finished-at="2019-12-21T11:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-12-21T11:27:00Z" finished-at="2019-12-21T11:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

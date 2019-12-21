@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.test.HomePageTest">
+        <methods>
+          <include name="MatchLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="ExtentReports"/>
+        </methods>
+      </class> <!-- com.crm.test.HomePageTest -->
+      <class name="com.crm.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="NegativeLoginTest"/>
+        </methods>
+      </class> <!-- com.crm.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

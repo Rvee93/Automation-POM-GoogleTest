@@ -1,0 +1,19 @@
+/----------------------------------------------**-------------------------------------------------------/
+Pre-requisites
+1. Installed Java  
+2. Installed Eclispe with TestNG library. 
+3. Browse a Maven Project.
+
+For Executing testcases: 
+1. Open TestBase Class 
+>>>>>>>>>>>>>>>>>>>>>> Change the path of config file according to your system. 
+for example: C://Users/LENOVO/Desktop/Assignment-1/Demo/src/main/java/com/crm/qa/config/config.properties
+>>>>>>>>>>>>>>>>>>>>>> Change the path of Browser according to your system.
+for example: C://Users/LENOVO/Desktop/Assignment-1/Demo/src/main/java/Browsers/chromedriver.exe
+2. testng.xml file 
+>>>>>>>>>>>>>>>>>>>>>> Right click inside file >>>> Run as a testng suite
+
+3. Please login first time manually at your system while the script is running when it says for phone number "7009113127" due to google security, it can not be automated.
+
+4. TestNG Report
+>>>>>>>>>>>>>>>>>>>>>> Please check the test-output folder for report
